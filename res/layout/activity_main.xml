@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <EditText
+        android:id="@+id/trEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Türkçe Kelime" />
+
+    <EditText
+        android:id="@+id/enEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İngilizce Kelime" />
+
+    <Button
+        android:id="@+id/cevir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Çevir" />
+
+</LinearLayout>
